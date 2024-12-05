@@ -7,7 +7,7 @@
             <li>Tools & Technologies: C#, SQL Server, MEVN stack, Docker, Postman, ADO.NET, Scrum.</li>
             <li>Experience: Educational information systems, eCommerce systems using the C4 Model, technical reports.</li>
         </ul>
-        <a href="/words" class="cta-button">Building a vocabulary</a>
+        <a href="/words/new" class="cta-button">Building a vocabulary</a>
     </div>
 </template>
 

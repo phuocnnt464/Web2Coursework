@@ -1,12 +1,13 @@
 <template>
     <div>
         <h1>Words</h1>
+        <p><strong>Total Words:</strong> {{ words.length }}</p>
         <table id="words" class="ui celled compact table">
             <thead>
                 <tr>
-                    <th>English</th>
-                    <th>German</th>
-                    <th>Vietnamese</th>
+                    <th><i class="united kingdom flag"></i>English</th>
+                    <th><i class="germany flag"></i>German</th>
+                    <th><i class="vietnam flag"></i>Vietnamese</th>
                     <th colspan="4"></th>
                 </tr>
             </thead>
@@ -22,6 +23,7 @@
                     <a :href="`/words/${word._id}`">Destroy</a></td>
             </tr>
         </table>
+        <a href="/test" class="cta-button">Testing</a>
     </div>
 </template>
 
@@ -50,3 +52,11 @@
         }
     };
 </script>
+
+<style scoped>
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+</style>
